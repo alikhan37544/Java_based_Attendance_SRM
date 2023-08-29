@@ -9,8 +9,8 @@ import java.sql.Statement;
 public class MySQLExample {
     public static void main(String[] args) {
         String url = "jdbc:mysql://localhost:3306/your_database";
-        String username = "your_username";
-        String password = "your_password";
+        String username = "root";
+        String password = "admin";
 
         try {
             Connection connection = DriverManager.getConnection(url, username, password);
